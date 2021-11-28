@@ -1,0 +1,27 @@
+#cardLogin{
+    width: 18rem;
+    height: 34rem;
+    padding: 1rem 1rem;
+    position: absolute;
+    top: 6%;
+    left: calc(50% - ( 18rem / 2));
+}
+#divCard{
+    position: relative;
+    height: calc(100vh - 7.5rem);
+}
+#imageUbosque{
+    background-image: url("https://misionticueb.myopenlms.net/pluginfile.php/1/tool_themeassets/assets/0/logo-mision-ubosque.png");
+    height: 3rem;
+    width: 10rem;
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+
+#imageMintic{
+    background-image: url("https://misionticueb.myopenlms.net/pluginfile.php/1/theme_snap/logo/1637652891/logo-mintic.png");
+    height: 3rem;
+    width: 10rem;
+    background-size: contain;
+    background-repeat:no-repeat;
+}

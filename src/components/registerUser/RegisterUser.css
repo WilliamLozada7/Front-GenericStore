@@ -1,0 +1,15 @@
+#cardRegister{
+    width: 36rem;
+    height: 34rem;
+    padding: 1rem 1rem;
+    position: absolute;
+    top: 6%;
+    left: calc(50% - ( 36rem / 2));
+}
+#divRegister{
+    position: relative;
+    height: calc(100vh - 7.5rem);
+}
+#divButtonGroup{
+    justify-content: center;
+}
