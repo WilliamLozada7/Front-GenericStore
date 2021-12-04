@@ -1,0 +1,10 @@
+#tableProducts {
+    height: 35rem;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: visible;
+}
+
+.bottonRegister:hover > a, .bottonEdit:hover > a{
+    color: #fff !important;
+}

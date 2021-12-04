@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Card, Button, ButtonToolbar, ButtonGroup } from "react-bootstrap";
 import { useNavigate } from "react-router";
 import { Footer } from "../footer/Footer";
-import { Header } from "../headerLogin/header";
+import { Header } from "../header/header";
 import { Modal } from "../modal/Modal";
 import './RegisterUser.css'
 

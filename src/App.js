@@ -12,11 +12,17 @@ function App() {
       <div className='App'>
         <BrowserRouter>
           <Routes>
-            <Route path="/login" element={<Login/>} />
-            <Route path="/" element={<Login/>} />
-            <Route path="/registerUser" element={<RegisterUser/>} />
-            <Route path="*" element={<Navigate to ="/" />}/>
-            <Route path="/home" element= {<PrivateRoute><Main/></PrivateRoute>} />
+            {true  && (
+              <>
+                <Route path="/login" element={<Login/>}/>
+                <Route path="/" element={<Login/>}/>
+                <Route path="/registerUser" element={<RegisterUser/>}/>
+              </>
+            )}
+            <Route path="/home/*" element={<PrivateRoute><Main/></PrivateRoute>}/>
+            {true && (
+                <Route path="*" element={<Navigate to ="/"/>}/>
+            )}
           </Routes>
         </BrowserRouter>
       </div>

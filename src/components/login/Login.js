@@ -3,7 +3,7 @@ import { Card, Form, Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import UseAuth from "../../auth/UseAuth";
 import { Footer } from "../footer/Footer";
-import { Header } from "../headerLogin/header";
+import { Header } from "../header/header";
 import { Modal } from "../modal/Modal";
 import './Login.css';
 

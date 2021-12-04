@@ -6,7 +6,7 @@ export const Footer = () => {
         <React.Fragment>
             <footer id="footerBlue" className="bg-light text-center text-lg-start">
                 <div className="text-center p-3" style={{ backgroundColor: "#e3f2fd"}}>
-                   {new Date().getFullYear()} © Copyright
+                {new Date().getDate()}/{new Date().getMonth()}/{new Date().getFullYear()} © Copyright
                 </div>
             </footer>
         </React.Fragment>

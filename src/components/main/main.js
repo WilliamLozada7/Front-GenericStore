@@ -1,19 +1,16 @@
 import React from "react";
-import { Button } from "react-bootstrap";
-import UseAuth from "../../auth/UseAuth";
+import { Header } from "../header/header";
+import { Footer } from "../footer/Footer";
+import { NavMenu } from "../navmenu/NavMenu";
 
 export const Main = () => {
 
-    const auth = UseAuth();
-
-    const handleLogout = () => {
-        auth.logout();
-    }
-
     return(
         <div>
-            <h1>Pagina principal</h1>
-            <Button variant="outline-primary" size="sm" onClick={handleLogout}>Logout</Button>
+            <Header/>
+            <NavMenu/>
+            <Footer/>
         </div>
     )
 }
+
