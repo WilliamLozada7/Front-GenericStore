@@ -109,7 +109,6 @@ export const EditProviders = () => {
                             styleMessage: 'danger',
                             show: true
                         })
-                        
                     }
                 })
                 .catch(error => {
@@ -139,6 +138,7 @@ export const EditProviders = () => {
                                 <label >NIT: </label>
                             </div>
                             <div className="col-sm">
+                                
                                 <input
                                     value={state.nit}
                                     name="nit"

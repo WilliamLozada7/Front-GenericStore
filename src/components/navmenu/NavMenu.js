@@ -97,7 +97,7 @@ export const NavMenu = () => {
                 <Route path="clientes" element= {<PrivateRoute><Clientes clients = {clientsDB}/></PrivateRoute>}/>
                 <Route path="proveedores" element= {<PrivateRoute><Proveedores providers = {providersDB}/></PrivateRoute>}/>
                 <Route path="ventas" element= {<PrivateRoute><Ventas/></PrivateRoute>}/>
-                <Route path="reportes" element= {<PrivateRoute><Reportes/></PrivateRoute>}/>
+                <Route path="reportes/*" element= {<PrivateRoute><Reportes/></PrivateRoute>}/>
                 <Route exact path="productos/:id" element= {<PrivateRoute><EditProducts/></PrivateRoute>}/>
                 <Route exact path="productos/registerproduct" element= {<PrivateRoute><RegisterProduct></RegisterProduct></PrivateRoute>}/>
                 <Route exact path="productos/registerproducts" element= {<PrivateRoute><h1>Registrar productos</h1></PrivateRoute>}/>
